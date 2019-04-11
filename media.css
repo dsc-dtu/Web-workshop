@@ -1,0 +1,52 @@
+/* Only mobile */
+@media only screen and (max-width: 410px) {
+    .ul-class-a {
+        font-size: 14px;
+    } 
+
+    .li_image_size img {
+        margin: 10px;
+        width: 35px;
+    }
+}
+
+/* Tablet */
+@media only screen and (min-width: 411px) and (max-width: 744px) {
+    .ul-class-a {
+        font-size: 18px;
+    }
+
+    .li_image_size img {
+        margin: 10px;
+        width: 40px;
+    }
+}
+
+/* Everything smaller than tablet */
+@media only screen and (max-width: 744px) {
+    .squese {
+        margin: 15px 0;
+    }
+
+    .photo_intro {
+        display: flex;
+        flex-direction: column;
+        min-height: 275px;
+    }
+
+    .my_photo {
+        margin: auto;
+    }
+
+    .para_head {
+        color: #dfdadd;
+        width: 100%;
+        margin: auto;
+        padding-left: 0;
+    }
+
+    .para_head p {
+        font-size: 16px;
+        margin: 0;
+    }
+}

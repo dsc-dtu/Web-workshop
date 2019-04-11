@@ -45,7 +45,7 @@ body {
   color: #fff;
   margin-top: 0;
   text-decoration: none;
-  margin-right: 5vw;
+  /* margin-right: 5vw; */
 }
 .ul-class-a {
   font-size: 30px;
@@ -53,16 +53,16 @@ body {
   list-style: none;
   color: #fff;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   padding: 0;
-  margin: 0;
+  margin: auto;
 }
 .ul-class-a li:hover {
   color: #fff;
   font-weight: 700;
 }
 .squese {
-  width: 80%;
+  width: 100%;
   text-align: center;
   margin-left: 12vw;
   margin-right: 12vw;
@@ -76,10 +76,13 @@ body {
 }
 .photo_intro {
   display: flex;
+  flex-direction: row;
   min-height: 275px;
 }
 .my_photo {
-  width: 20%;
+  min-height: 180px;
+  max-width: 275px;
+  width: 50%;
   background-image: url(images/profilepic.jpg);
   background-repeat: no-repeat;
   border-radius: 50%;
@@ -167,7 +170,7 @@ body {
   background-color: #8b0000;
 }
 .progress_bar {
-  width: 700px;
+  width: 70%;
   height: 25px;
   margin: 10px;
   margin-left: 0;
