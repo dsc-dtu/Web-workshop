@@ -4,7 +4,6 @@ body {
 #contain {
   display: flex;
   width: 100%;
-  overflow: hidden;
   flex-wrap: wrap;
 }
 .head {
@@ -113,7 +112,6 @@ body {
   border-radius: 50%;
 }
 .about .right {
-  overflow: hidden;
   padding-top: 5vh;
 }
 .about {
@@ -131,7 +129,6 @@ body {
 }
 .right {
   width: 70%;
-  overflow: hidden;
   background-color: #00f;
 }
 .left {
@@ -152,7 +149,6 @@ body {
   display: inline-block;
   margin-top: 5vh;
   border-bottom: 5px solid #00f;
-  overflow: hidden;
   width: auto;
 }
 .edu .right h2 {
@@ -217,7 +213,6 @@ body {
 .right1 {
   width: 40vw;
   height: 100%;
-  overflow: hidden;
 }
 .right2 {
   width: 30vw;
@@ -235,7 +230,6 @@ body {
   display: inline-block;
   margin-top: 5vh;
   border-bottom: 5px solid #00f;
-  overflow: hidden;
   width: auto;
 }
 .foot {
