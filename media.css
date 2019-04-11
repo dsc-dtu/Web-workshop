@@ -8,6 +8,14 @@
         margin: 10px;
         width: 35px;
     }
+
+    .about p {
+        font-size: 14px;
+    }
+
+    .about h1 {
+        font-size: 24px;
+    }
 }
 
 /* Tablet */
@@ -19,6 +27,14 @@
     .li_image_size img {
         margin: 10px;
         width: 40px;
+    }
+
+    .about p {
+        font-size: 18px;
+    }
+    
+    .about h1 {
+        font-size: 28px;
     }
 }
 

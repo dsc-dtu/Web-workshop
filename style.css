@@ -34,7 +34,7 @@ body {
   justify-content: space-around;
 }
 .box {
-  height: 60vh;
+  /* height: 60vh; */
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -115,19 +115,15 @@ body {
   border-radius: 50%;
 }
 .about .right {
-  padding-top: 5vh;
+  padding: 5vh 0;
 }
-.about {
-  height: 80vh;
-}
+
 .about {
   background-color: gray;
   display: flex;
 }
 .about p {
   color: beige;
-  margin-left: auto;
-  margin-right: 25vw;
   font-size: 25px;
 }
 .right {
