@@ -16,6 +16,14 @@
     .about h1 {
         font-size: 24px;
     }
+
+    .edu .right p {
+        font-size: 14px;
+    }
+
+    .quote {
+        font-size: 14px;
+    }
 }
 
 /* Tablet */
@@ -35,6 +43,14 @@
     
     .about h1 {
         font-size: 28px;
+    }
+
+    .edu .right p {
+        font-size: 18px;
+    }    
+
+    .quote {
+        font-size: 18px;
     }
 }
 
@@ -64,5 +80,33 @@
     .para_head p {
         font-size: 16px;
         margin: 0;
+    }
+
+    .progress_bar {
+        margin: 10px auto;
+    }
+
+    .box {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .edu p {
+        margin-right: 0;
+    }
+
+    .edu .right p {
+        color: gray;
+        padding: 0 20px;
     }
 }

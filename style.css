@@ -42,8 +42,8 @@ body {
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
+	flex-direction: row;
 	border-bottom: 2px solid #000;
-	justify-content: space-around;
 }
 
 .ul-class-a a {
@@ -262,10 +262,6 @@ body {
 	background-color: #191919;
 }
 
-.foot {
-	height: 30vh;
-}
-
 .color_grblack {
 	background-color: #312d2d;
 }
@@ -275,5 +271,5 @@ body {
 }
 
 .foot .squese-img {
-	margin-top: 100px;
+	margin: 15px auto;
 }
