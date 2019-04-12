@@ -1,7 +1,7 @@
 /* Only mobile */
 @media only screen and (max-width: 410px) {
     .ul-class-a {
-        font-size: 14px;
+        font-size: 11px;
     } 
 
     .li_image_size img {
@@ -37,7 +37,7 @@
 /* Tablet */
 @media only screen and (min-width: 411px) and (max-width: 744px) {
     .ul-class-a {
-        font-size: 18px;
+        font-size: 15px;
     }
 
     .li_image_size img {
